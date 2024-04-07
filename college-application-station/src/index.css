@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button{
+  margin: 10px;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.lightButton{
+  background-color: white;
+  color: black;
+  height: 60px;
+}
+
+input{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+input::placeholder, textarea::placeholder{
+  text-align: center;
+}
+
+.dropdown{
+  width: 96%;
+  margin: auto;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+textarea{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 500px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.bigChoiceButton{
+  width: 90%;
+  max-width: 700px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 60px;
+}
+
+.link{
+  color: blue;
+  text-decoration: underline;
+}
+
+.basicSlide{
+  background-color: navy;
+  color: white;
+  width: 90%;
+  min-width: 400px;
+  border-radius: 5px;
+  padding: 20px;
+  margin: auto;
+}
+
+.rectangularSlide{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  background-color: navy;
+  color: white;
+  width: 20%;
+  min-height: 300px;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 50px;
+}
+
+.inform{
+  color: gray;
+}
+
+.activeTab{
+  background-color: blue;
+  margin: 50px;
+  width: 10%
+}
+
+.unactiveTab{
+  margin: 50px;
+  width: 10%
+}
+
+.flexx{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+.date{
+  border: none;
+  color: white;
+  background-color: navy;
+  width: fit-content;
+  margin: auto;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background-color: navy;
+  color: white;
+  height: 100px;
+  padding: 30px;
+}
+
+.headerH1{
+  margin: 0px;
+}
+
+.menu{
+  width: 200px;
+  background-color: navy;
+  color: white;
+  float: left;
+}
+
+.menuBar{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  margin-left: 20px;
+}
+
+.activeMenuOption{
+  background-color: rgb(33, 33, 192);
+  border: 1px solid white;
+  margin: 0px;
+  padding: 20px;
+}
+
+.unactiveMenuOption{
+  border: 1px solid white;
+  margin: 0px;
+  padding: 20px;
+}
+
+.noDisplay{
+  display: none;
+}
+
+.advice{
+  margin: 50px;
+}
+
+.whiteSlide{
+  border: 1px solid gray;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.small{
+  width: fit-content;
+}
+
+.slide{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  background-color: navy;
+  color: white;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+}
